@@ -74,3 +74,23 @@ $("h1").append("<button> New </button>");
 // mengapus element
 $("button").remove();
 ```
+### Animasi 
+```javascriot
+// animation
+$("button").on('click', function() {
+  $("h1").toggle();
+});
+```
+
+```javascript
+$('h1').on('click', function() {
+  $("h1").fadeToggle();
+});
+```
+```javascript
+$('h1').on('click', function() {
+  $("h1").animate({
+    opacity: 0.5
+  });
+});
+```
