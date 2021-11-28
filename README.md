@@ -72,5 +72,5 @@ $("h1").append("<button> New </button>");
 // menambahkan element tepat setelah konten element yang dipilih dan tepat tag pembuka
 
 // mengapus element
-// $("button").remove();
+$("button").remove();
 ```
